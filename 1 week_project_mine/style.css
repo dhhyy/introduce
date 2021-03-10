@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+.upperSide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upperSide__left, .upperSide__right {
+    width: 180px;
+    padding: 170px;
+    border: 5px solid gray;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.downSide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.downSide__left, .downSide__right {
+    width: 180px;
+    padding: 170px;
+    border: 5px solid gray;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.icon {
+    color: lightcoral;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 70px;
+    margin: auto;
+    border: 3px solid grey;
+    border-radius: 50%;
+}
+
+.downSide__right .description {
+    color: lightcoral;
+    font-size: 30px;
+}
